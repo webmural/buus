@@ -1,0 +1,26 @@
+::selection {
+  background: mistyrose;
+  color: rebeccapurple;
+}
+
+:any-link {
+  color: indigo;
+  background-color: violet;
+  transition: 210ms ease-in-out;
+}
+
+:root {
+  background: indigo;
+  background-image: linear-gradient(.1turn, indigo, darkviolet, rebeccapurple, indigo 10%);
+  color: violet;
+  transition: 210ms ease-in-out;
+}
+
+:focus {
+  outline: 1ch outset violet;
+}
+
+:active {
+  background-image: conic-gradient(blueviolet, rebeccapurple, indigo);
+  color: pink;
+}

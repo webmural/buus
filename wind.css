@@ -1,0 +1,46 @@
+:focus {
+  text-decoration-style: dotted;
+}
+
+:hover {
+  text-decoration-style: double;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: calc(1em + 2vmax + 3vmin);
+  line-height: 1.618;
+}
+
+body {
+  margin: auto;
+  overflow-wrap: anywhere;
+}
+
+samp {
+  border-radius: 100%;
+  font-family: inherit;
+}
+
+h1 a {
+  font-weight: lighter;
+}
+
+h1 {
+  text-indent: 1rem;
+  transform: rotate(-60deg);
+  margin: auto;
+}
+
+article {
+  box-sizing: border-box;
+  margin: auto;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+figure {
+  transform: rotate(-30deg);
+  writing-mode: sideways-rl;
+  margin: auto;
+}
